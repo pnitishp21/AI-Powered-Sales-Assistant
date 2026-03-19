@@ -1,12 +1,8 @@
 [README.md](https://github.com/user-attachments/files/26121277/README.md)
 # AI-Powered Sales Assistant — n8n Automation
-
 > Automates lead intake, qualification, and product recommendations using Gmail, OpenAI, Google Sheets, and n8n — reducing manual sales effort and improving response time.
 
----
-
 ## Problem
-
 A furniture company's sales team manually read emails, extracted lead information into Excel, and hand-wrote product recommendations. This led to:
 
 - Slow response times
@@ -14,13 +10,9 @@ A furniture company's sales team manually read emails, extracted lead informatio
 - Human error
 - Lost revenue opportunities
 
----
-
 ## Solution
 
 An **AI Sales Assistant** that monitors incoming leads and automatically sends personalised product recommendations — with zero manual intervention.
-
----
 
 ## Workflow Overview
 
@@ -52,8 +44,6 @@ Incoming Email (Gmail)
                                              Fast · consistent · automated
 ```
 
----
-
 ## Tech Stack
 
 | Tool | Purpose |
@@ -65,7 +55,6 @@ Incoming Email (Gmail)
 | **Google Sheets** | Lead logging and tracking |
 | **Gmail (send)** | Automated reply with product recommendations |
 
----
 
 ## MVP Scope
 
@@ -112,7 +101,6 @@ Key metrics:
 ### 6. How does this scale?
 The MVP handles Gmail. Post-MVP, the same core logic can be triggered from WhatsApp, a web contact form, or any other channel — n8n supports all of these. The LLM and recommendation logic stays the same; only the trigger and send nodes change.
 
----
 
 ## Project Structure
 
@@ -127,8 +115,6 @@ The MVP handles Gmail. Post-MVP, the same core logic can be triggered from Whats
     └── workflow-diagram.png     ← Visual workflow diagram
 ```
 
----
-
 ## Setup Instructions
 
 1. **Import the workflow** — Open n8n, go to Workflows → Import, and upload `workflow/ai-sales-assistant.json`
@@ -138,8 +124,7 @@ The MVP handles Gmail. Post-MVP, the same core logic can be triggered from Whats
 5. **Configure the Gmail trigger** — Set the label or filter for incoming lead emails
 6. **Test with a sample email** — Send a test lead email and verify the full workflow runs end-to-end
 
----
-
 ## Author
+> Built as a Product Manager portfolio project demonstrating end-to-end AI automation thinking: from problem identification, MVP scoping, workflow design, to structured delivery planning.
 
 Built as a Product Manager portfolio project demonstrating end-to-end AI automation thinking: from problem identification, MVP scoping, workflow design, to structured delivery planning.
