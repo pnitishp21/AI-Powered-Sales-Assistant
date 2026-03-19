@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/26121277/README.md)
-# AI-Powered Sales Assistant — n8n Automation
+# AI-Powered Sales Assistant - n8n Automation
 > Automates lead intake, qualification, and product recommendations using Gmail, OpenAI, Google Sheets, and n8n — reducing manual sales effort and improving response time.
 
 ## Problem
