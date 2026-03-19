@@ -125,6 +125,5 @@ The MVP handles Gmail. Post-MVP, the same core logic can be triggered from Whats
 6. **Test with a sample email** — Send a test lead email and verify the full workflow runs end-to-end
 
 ## Author
-> Built as a Product Manager portfolio project demonstrating end-to-end AI automation thinking: from problem identification, MVP scoping, workflow design, to structured delivery planning.
 
 Built as a Product Manager portfolio project demonstrating end-to-end AI automation thinking: from problem identification, MVP scoping, workflow design, to structured delivery planning.
